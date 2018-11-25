@@ -9,7 +9,7 @@ export class Note extends Component {
       searchActive = false
     }
     const filteredNote = arrWithNote.filter(elem => {
-      if (elem.title.includes(searchInputValue) || elem.title.includes(searchInputValue)) {
+      if (elem.title.includes(searchInputValue) || elem.text.includes(searchInputValue)) {
         return elem
       }
     })
