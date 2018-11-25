@@ -1,0 +1,44 @@
+.listItem{
+  display: flex;
+  flex-direction: row;
+  background: #fff;
+  margin: 0 0 20px 0;
+  border-radius: 20px;
+  padding: 40px 25px;
+  box-shadow: 0 5px 25px #e7e7e7;
+}
+.noteBox{
+  width: 100%;
+  
+}
+li{
+  list-style: none;
+}
+ul{
+  padding: 0;
+}
+.deleteButton{
+  width: 32px;
+  height: 32px;
+  background: url('../../image/delete.png') no-repeat;
+  border:0;
+  outline: none;
+  cursor: pointer;
+}
+.errorNote{
+  font-size: 30px;
+  color: #c0c0c0;
+  text-align: center;
+}
+.title{
+  padding: 0 0 25px 0;
+  margin: 0;
+}
+.noteText{
+  margin: 0 0 10px 0;
+  font-size: 18px;
+}
+.date{
+  margin: 0;
+  font-size: 12px;
+}

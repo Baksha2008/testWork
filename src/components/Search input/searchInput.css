@@ -1,0 +1,15 @@
+.searchInput{
+  background: url('../../image/search.png') 32px/32px no-repeat;
+  background-color: #666;
+  padding: 25px 25px 25px 82px;
+  width: 100%;
+  color: #fff;
+  font-size: 14px; 
+  border:none;
+  outline: none;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.searchInput::-webkit-input-placeholder{
+  color: #fff;
+}

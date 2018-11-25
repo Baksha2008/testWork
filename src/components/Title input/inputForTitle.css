@@ -1,0 +1,18 @@
+.titleInput{
+  background-color: #e8e8e8;
+  padding: 25px;
+  color: #a4a4a4;
+  font-size: 14px;
+  border-radius: 50px;
+  border:none;
+  outline: none;
+  margin: 0 0 10px 0;
+}
+.titleInput::-webkit-input-placeholder{
+  color: #a4a4a4
+}
+.errorMessage{
+  padding: 0 0 0 20px;
+  margin: 0 0 10px 0;
+  color: red;
+}

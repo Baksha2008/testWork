@@ -1,0 +1,42 @@
+.button{
+  display: flex;
+  flex-direction: row;
+  margin: 0 0 50px 0;
+
+}
+.nameButton{
+  margin: 20px;
+  color: #62ce76; 
+  font-size: 18px;
+}
+.buttonToAdd{
+  background: #62ce76;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  outline: 0;
+  border: none;
+  cursor: pointer;
+  position: relative;
+}
+.buttonToAdd:before{
+  position: absolute;
+  content: '';
+  background: #fff;
+  width: 32px;
+  height: 10px;
+  top:calc(50% - 5px);
+  left:25%;
+}
+.buttonToAdd:after{
+  position: absolute;
+  content: '';
+  background: #fff;
+  width: 10px;
+  height: 32px;
+  top:25%;
+  left:calc(50% - 5px);
+}
+.buttonToAdd:hover{
+  background: #87f39b;
+}
